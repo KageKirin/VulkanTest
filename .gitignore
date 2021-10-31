@@ -1,0 +1,36 @@
+# .gitignore for Broadway
+
+## build artifacts
+build/
+
+## documentation
+doc/doxygen/
+
+## EMSDK shall not be committed
+bin/emsdk
+
+## bin
+bin/
+
+## libs
+libs/
+
+## pngs
+*.png
+
+!libs/cimgui
+!libs/imgui
+!libs/glad
+!libs/glew
+!libs/khr
+!libs/sdl
+!libs/stb
+!libs/win-unistd
+
+# python cache
+*.pyc
+*/__pycache__
+
+## patching tools
+mine.sh
+recomment
